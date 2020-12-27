@@ -21,3 +21,6 @@ Once we release the data, anyone can download it, build a model, and make a subm
 We also release another set of data (test dataset) with just the independent variables, and we hide the dependent variable that corresponds with this set. You submit the predicted values of the dependent variable for this set and we compare it against the actual values. 
 
 The predictions are evaluated based on the evaluation metric defined in the datathon.
+
+# Model Deployment Link
+https://loan-application-predictor.herokuapp.com/
