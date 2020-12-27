@@ -61,7 +61,7 @@ def main():
     la=LoanAmount
     Loan_Amount_Term = st.number_input(label='Enter Loan Amount Term in Months', min_value=60, max_value=None,format='%f')
     lat=Loan_Amount_Term
-    Credit_History =  st.radio("Select your Credit History: ",('Yes', 'No'))
+    Credit_History =  st.radio("Select your Credit History: ",('0', '1'))
     Rural =  st.radio("Enter your Region you lIve in ",('Rural', 'Urban'))
     
     if float((ai+ci)*(lat)) >=(1.2)*la:
@@ -91,7 +91,7 @@ def main():
     else:
         Rural = 0
         Urban = 1  
-    if Credit_History=='Yes':
+    if Credit_History=='1':
         Credit_History = 1
     else:
         Credit_History = 0
